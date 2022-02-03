@@ -34,10 +34,6 @@ namespace Quiz
             DOTween.To(() => 0f, time => cellPresenter.Image.transform.localScale = Vector3.one * _correctBounceCurve.Evaluate(time),
                 1f, _correctBounceDuration)
                 .OnComplete(() => _effectInProgress = false);
-
-            //cellPresenter.Image.transform.DOScale(Vector3.one * 1.0f, _correctBounceDuration)
-            //    .SetEase(_correctBounceCurve)
-            //    .OnComplete(() => _effectInProgress = false);
         }
 
         private void OnIncorrectChoiceReceive(CellData cellData)

@@ -1,6 +1,9 @@
 ﻿
-public enum Orientation
+namespace Quiz
 {
-    Vertical,
-    Horizontal
+    public enum Orientation
+    {
+        Vertical,
+        Horizontal
+    }
 }
