@@ -14,9 +14,12 @@ namespace Quiz
 
         protected override void Initialize()
         {
-            Color color = _qiuzText.color;
-            _qiuzText.color = new Color(color.r, color.g, color.b, 0f);
-            _qiuzText.DOColor(new Color(color.r, color.g, color.b, 1f), _coloringDuration);
+            if (commonData.SessionProcessData.CycleNumber == 1)
+            {
+                Color color = _qiuzText.color;
+                _qiuzText.color = new Color(color.r, color.g, color.b, 0f);
+                _qiuzText.DOColor(new Color(color.r, color.g, color.b, 1f), _coloringDuration);
+            }
 
             _qiuzText.text = string.Format(_emptyText, commonData.SessionProcessData.CurrentTargetBundleCell.Identifier);
         }

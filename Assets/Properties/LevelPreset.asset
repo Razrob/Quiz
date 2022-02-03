@@ -15,10 +15,13 @@ MonoBehaviour:
   _levelIterations:
   - _availabilityVisualizationBundles:
     - {fileID: 11400000, guid: d710051655a5dba408c0471aa3d013e4, type: 2}
+    - {fileID: 11400000, guid: d2d293a2daf61f74791a0e0929f491da, type: 2}
     _cellsPlacementMode: {x: 3, y: 1}
   - _availabilityVisualizationBundles:
     - {fileID: 11400000, guid: d710051655a5dba408c0471aa3d013e4, type: 2}
+    - {fileID: 11400000, guid: d2d293a2daf61f74791a0e0929f491da, type: 2}
     _cellsPlacementMode: {x: 3, y: 2}
   - _availabilityVisualizationBundles:
     - {fileID: 11400000, guid: d710051655a5dba408c0471aa3d013e4, type: 2}
+    - {fileID: 11400000, guid: d2d293a2daf61f74791a0e0929f491da, type: 2}
     _cellsPlacementMode: {x: 3, y: 3}
