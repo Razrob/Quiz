@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 346b211c357601d4498ad53f77162c67, type: 3}
+  m_Name: NumbersVisualizationBundle
+  m_EditorClassIdentifier: 
+  _bundleCells:
+  - Identifier:
+      _identifier: One
+    CellSprite: {fileID: 1422184923334757970, guid: 90346774c802eef48ae79fe83f1917e3,
+      type: 3}
+    Orientation: 0
+  - Identifier:
+      _identifier: Two
+    CellSprite: {fileID: 1808195818850983521, guid: 90346774c802eef48ae79fe83f1917e3,
+      type: 3}
+    Orientation: 0
+  - Identifier:
+      _identifier: Three
+    CellSprite: {fileID: -7900951133411543555, guid: 90346774c802eef48ae79fe83f1917e3,
+      type: 3}
+    Orientation: 0
+  - Identifier:
+      _identifier: Four
+    CellSprite: {fileID: 2267071060405275165, guid: 90346774c802eef48ae79fe83f1917e3,
+      type: 3}
+    Orientation: 0
+  - Identifier:
+      _identifier: Five
+    CellSprite: {fileID: -7398325283844340781, guid: 90346774c802eef48ae79fe83f1917e3,
+      type: 3}
+    Orientation: 0
+  - Identifier:
+      _identifier: Six
+    CellSprite: {fileID: -7015292045520539579, guid: 90346774c802eef48ae79fe83f1917e3,
+      type: 3}
+    Orientation: 0
+  - Identifier:
+      _identifier: Seven
+    CellSprite: {fileID: -675344402919758444, guid: 90346774c802eef48ae79fe83f1917e3,
+      type: 3}
+    Orientation: 1
+  - Identifier:
+      _identifier: Eight
+    CellSprite: {fileID: 3547489320769246608, guid: 90346774c802eef48ae79fe83f1917e3,
+      type: 3}
+    Orientation: 1
+  - Identifier:
+      _identifier: Nine
+    CellSprite: {fileID: -1155199509967091035, guid: c766d51de17f68641a67ea1a56413095,
+      type: 3}
+    Orientation: 0
+  - Identifier:
+      _identifier: Ten
+    CellSprite: {fileID: 4142021021139464533, guid: aed5ef3a249cd6d44b57f691e9368743,
+      type: 3}
+    Orientation: 0
+  _backgroundColors:
+  - {r: 0.9928183, g: 1, b: 0.7122642, a: 1}
+  - {r: 0.5896226, g: 1, b: 0.71388584, a: 1}
+  - {r: 1, g: 0.8160377, b: 0.8160377, a: 1}
+  - {r: 0.8066038, g: 0.96628493, b: 1, a: 1}
+  - {r: 0.99685216, g: 0.7783019, b: 1, a: 1}
+  _cellsLayoutData:
+    CellSize: {x: 210, y: 210}
+    CellBorder: -5
+    ImageRelativeSize: 0.65
